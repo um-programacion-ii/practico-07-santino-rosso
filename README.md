@@ -21,3 +21,7 @@ Primera implementación de Spring usando Java
 **Client:** curl | postman | insomnia | http
 
 **Server:** Spring, Java, Spring Boot, Spring Web
+
+## Reference  
+[Example](https://github.com/dqmdz/spring_java_proof_of_concept/tree/spring-java-proof-of-concept-mysql  
+)  

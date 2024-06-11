@@ -1,0 +1,26 @@
+### GET all personas
+GET http://localhost:8080/personas/
+
+### GET persona by ID
+GET http://localhost:8080/personas/1
+
+### POST create new persona
+POST http://localhost:8080/personas/
+Content-Type: application/json
+
+{
+  "nombre": "Jorge",
+  "apellido": "Rodriguez"
+}
+
+### PUT update existing persona
+PUT http://localhost:8080/personas/1
+Content-Type: application/json
+
+{
+  "nombre": "Santino",
+  "apellido": "Rodriguez"
+}
+
+### DELETE persona by ID
+DELETE http://localhost:8080/personas/1
